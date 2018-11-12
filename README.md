@@ -1071,8 +1071,8 @@ myFactorial(25) # Returns the value of 25!
 ```
 
 **Resources:**
-[Examples of builtin functions](https://www.statmethods.net/management/functions.html)
-[Practice on writing R functions](https://www.datacamp.com/courses/writing-functions-in-r)
+- [Examples of builtin functions](https://www.statmethods.net/management/functions.html)
+- [Practice on writing R functions](https://www.datacamp.com/courses/writing-functions-in-r)
 
 ## For loops, apply, sapply, lapply
 
@@ -1125,7 +1125,7 @@ myList <- list(x = 'my', y = 'list', z = 'is', w = 'cool')
 lapply(myList, length) # This will give a list with 4 numbers: 2, 4, 2, 4
 ```
 **Resources:**
-[Using apply, sapply, lapply in R](https://www.r-bloggers.com/using-apply-sapply-lapply-in-r/)
+- [Using apply, sapply, lapply in R](https://www.r-bloggers.com/using-apply-sapply-lapply-in-r/)
 
 ## If-else
 As all the other languages, also R has operators for conditional statement (if-else):
@@ -1156,7 +1156,9 @@ x || y      # Logical OR
 ## Plotting
 Beside the builtin functions, there are several packages designed to produce high quality graphs. Probably, the most famous among these is ```ggplot2```.
 Here, it is possible to find nice examples of data graphs generated using ```ggplot2```
-[R Graphs](http://www.cookbook-r.com/Graphs/)
+
+- [R Graphs](http://www.cookbook-r.com/Graphs/)
+
 # Python
 "Python is an interpreted high-level programming language for general-purpose programming."
 - [Python Website](https://www.python.org/)
