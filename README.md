@@ -25,7 +25,9 @@ your aims of opening and processing your data, analysing it, and recording the r
 That's because all of these languages and packages utilise and are built on the same
 programming fundamentals, which we're now going to go through.
 
-In the introduction below, the syntax is Python.
+# General introduction
+
+In the introduction below, the syntax is python.
 
 ## Commands
 Python, Matlab, and R are interpreted languages. That means the code is interpreted at run time (there's no pre-compiling).
@@ -401,10 +403,11 @@ out what the hell was going on.
 
 Keeping your data and code organised well will help you 6 months down the line.
 
-
-### Installing Matlab
+# Matlab
 
 Matlab is a propriety computational environment developed by Mathworks.
+
+### Installing Matlab
 
 Matlab can be installed from the college central software repository
 
@@ -705,6 +708,10 @@ When installing Matlab, a lot of the toolboxes that are available are unlikely t
 - Image Processing Toolbox
 - Statistics and Machine Learning Toolbox
 
+# R
+"R is a free software environment for statistical computing and graphics."
+- [r-project.org](https://www.r-project.org/)
+
 ## Installing R
 
 R can be run from the command line, however we are going to use RStudio, a free-to-use program that provides a user-friendly environment. RStudio interface is based on similar scheme of others scripting languages, such as Spyder for Python or Matlab.
@@ -820,6 +827,10 @@ Additional information is often provided together with packages on their website
 - deplyR
 - tidyR
 - XCMS - MS import and preprocessing.
+
+# Python
+"Python is an interpreted high-level programming language for general-purpose programming."
+- [Python Website](https://www.python.org/)
 
 ## Installing Python
 
