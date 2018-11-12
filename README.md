@@ -452,7 +452,9 @@ ylabel('f(x)','FontSize',16);
 box on;
 ```
 
-These commands could be typed individually into the command prompt, or equally saved into a script so that all of the commands can be run together.  So plot the cosine of x as well, we can run the following commands:
+![Matlab figure 1](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure1.png "Matlab figure 1")
+
+These commands could be typed individually into the command prompt, or equally saved into a script so that all of the commands can be run together.  To plot the cosine of x as well, we can run the following commands:
 
 ```
 % matlab
@@ -460,6 +462,8 @@ These commands could be typed individually into the command prompt, or equally s
 hold on;
 h2 = plot(x,cos(x),'Color','red','LineStyle','--','LineWidth',2);
 ```
+
+![Matlab figure 2](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure2.png "Matlab figure 2")
 
 The 'hold' command is required to prevent the plotting of the cosine wave overwriting that of the sine wave.  If, instead, you wanted to draw the cosine in a separate graph, then first create a new empty figure.
 
@@ -479,6 +483,8 @@ set(gca,'FontSize',14,...
 % Change the x-axis' limit
 xlim([0 3*pi]);
 ```
+
+![Matlab figure 3](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure3.png "Matlab figure 3")
 
 Functions take inputs and typically produce outputs, and a simple function is shown below.  Note the use of (square) brackets for grouping the output arguments and the parentheses for grouping the input arguments:
 
@@ -711,7 +717,7 @@ R must be installed before RStudio.
 
 RStudio default layout consists of three panels. At left there is a panel showing the code executed plus eventually the textual output. At right, the top panel show the current variables/functions loaded in the environment (top) and the bottom panel allows the access to the file system. When a script is opened the left panel is split in two.
 
-![R Studio](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/rstudio-windows.png "R Studio")
+v
 
 ### Installing packages
 
