@@ -867,7 +867,7 @@ pip install numpy nPYc
 On Windows, conda is the simplest package management system to use. It uses the Anaconda navigator to explore and configure environments.
 
 - [Anaconda website](https://www.anaconda.com/)
-- [Getting started with Anaconda Navigator] https://docs.anaconda.com/anaconda/user-guide/getting-started/
+- [Getting started with Anaconda Navigator](https://docs.anaconda.com/anaconda/user-guide/getting-started/)
 
 
 
