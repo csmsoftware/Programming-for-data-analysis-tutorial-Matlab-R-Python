@@ -882,12 +882,16 @@ the command line. In console mode, python can be entered and executed line by li
 Python can also run 'scripts', text files containing python code. Name these file `*.py`, and run them as follows:
 
 ```
+# bash
+
 python my_script.py
 ```
 
 Command line applications can handle arguments in similar ways to linux cmd programs,
 
 ```
+# bash
+
 python my_script.py -a arg1 -b arg2 -c arg3
 ```
 
