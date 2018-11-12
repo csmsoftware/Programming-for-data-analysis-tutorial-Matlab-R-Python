@@ -375,7 +375,7 @@ The interface provides windows to various views of your code and data,
 such as current variables, text editor for code, and a built-in debugger
 with code inspection.
 
-(Insert Matlab image?)
+![Matlab IDE](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-example.jpg "Matlab IDE")
 
 ### Installing packages
 Matlab will look in a set of default folders for functions/packages so if you want to install new packages, you will need to tell Matlab where to look.  This default path can be found by clicking on the 'Set Path' button in the Home tab (see Environment) and you can manually add folders to the path here.  Alternatively, you can navigate to a particular folder in the user the path bar towards the top of the working environment.  The 'Current Folder' window shows you the contents of the selected folder.  The contents of this folder can be called in Matlab, although functions within folders typically cannot (these are likely to be shown with greyed-out file names).  To ensure that all functions within a folder are available for Matlab to run, you should run the following command:
@@ -616,11 +616,14 @@ When installing Matlab, a lot of the toolboxes that are available are unlikely t
 R can be run from the command line, however we are going to use RStudio, a free-to-use program that provides a user-friendly environment. RStudio interface is based on similar scheme of others scripting languages, such as Spyder for Python or Matlab.
 
 The latest version of R can be downloaded from the [CRAN website](https://cran.r-project.org), whereas R Studio can be found on the [RStudio website](https://www.rstudio.com).
+
 R must be installed before RStudio.
 
 ### Intro to R Studio
 
 RStudio default layout consists of three panels. At left there is a panel showing the code executed plus eventually the textual output. At right, the top panel show the current variables/functions loaded in the environment (top) and the bottom panel allows the access to the file system. When a script is opened the left panel is split in two.
+
+![R Studio](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/rstudio-windows.png "R Studio")
 
 ### Installing packages
 
@@ -772,6 +775,7 @@ The IPython QT Console is an QT GUI version of the basic console. It supports em
 Spyder is an interactive python environment similar to R Studio and Matlab.
 
 - [Spyder IDE](https://www.spyder-ide.org/)
+
 ![Example Spyder IDE](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/Spyder-windows-screenshot.png "Spyder IDE")
 
 ### Jupyter/IPython Notebook
@@ -786,7 +790,8 @@ Notebooks can be saved as json and exported and imported by other users.
 
 - [Jupyter Notebooks](https://jupyter.org/)
 - [Community supported kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
-![Example Jupyter Notebook](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/src/img/example-notebook.png "Jupyter Notebook")
+
+![Example Jupyter Notebook](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/example-notebook.png "Jupyter Notebook")
 
 
 ### Useful Packages
