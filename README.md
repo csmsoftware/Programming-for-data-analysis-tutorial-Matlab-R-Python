@@ -291,7 +291,7 @@ Others have less features but are interactive by default (plotly).
 
 They generally work by providing vectors of information and various settings.
 
-https://plot.ly/python/
+Some examples of these will be provided for each language.
 
 ## Help files
 R and Matlab provide offline help files for understanding package functionalities and APIs.
@@ -929,10 +929,17 @@ Notebooks can be saved as json and exported and imported by other users.
 
 ### Useful Packages
 
-**numpy - Fast numerical processing.
-**pandas - Table data structures.
-**jupyter-notebook - For running jupyter-notebooks.
-**scipy - Wide range of packages for scientific computing.
-**scikit-learn - Machine learning in python.
-**plotly - Interactive charts.
-**nPYc Toolbox - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
+- numpy - Fast numerical processing.
+- pandas - Table data structures.
+- jupyter-notebook - For running jupyter-notebooks.
+- scipy - Wide range of packages for scientific computing.
+- scikit-learn - Machine learning in python.
+- plotly - Interactive charts.
+- nPYc Toolbox - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
+
+
+# Further Reading
+
+We recommend further reading and training. The Software Carpentry courses are available online and are recommended for more in-depth training on specific languages and technologies.
+
+- [Software Carpentry lessons](https://software-carpentry.org/lessons/)
