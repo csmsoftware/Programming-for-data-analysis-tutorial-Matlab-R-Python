@@ -43,22 +43,31 @@ Variables are named locations of the data in the memory, are of a specific 'data
 **String** - alphanumeric character lists, escaped by single or double quotes.
 
 ```
+# python
+
 print("John Smith")
-> John Smith
+
+# > John Smith
 ```
 
 **Numeric** - Int, Float, Decimal, Double.
 
 ```
+# python
+
 print(20)
-> 20
+
+# > 20
 ```
 
 **Boolean** - True/False
 
 ```
+# python
+
 print(True)
-> True
+
+# > True
 ```
 
 ### Complex datatypes
@@ -74,17 +83,23 @@ These variables are the named location of this data in memory.
 
 ### String variable assignment
 ```
+# python
+
 my_name = "John Smith"
 print(my_name)
-> John Smith
+
+# > John Smith
 ```
 
 ### Numeric variable assignment
 
 ```
+# python
+
 my_number = 20
 print(my_number)
-> 20
+
+# > 20
 ```
 
 ## Operators
@@ -92,11 +107,14 @@ print(my_number)
 Operations can be carried out on variables, for example, adding 2 variables together.
 
 ```
+# python
+
 my_number = 20
 my_other_number = 30
 my_final_number = my_number + my_other_number
 print(my_final_number)
-> 50
+
+# > 50
 ```
 
 The + symbol is an example of an arithmetic operator, others include (`-`, `/` , `*`).
@@ -112,18 +130,23 @@ Conditions are way of creating a logical flow of operations through our program.
 They use keywords like `IF`, `ELSE`, and `WHILE` to test conditions and execute different branches of code.
 
 ```
+# python
+
 threshold = 40
 my_value = 24
 if(my_value >= 40):
 	print("Threshold passed")
 else:
 	print("Threshold not passed")
-> Threshold not passed
+
+# > Threshold not passed
 ```
 
 Conditionals can also be combined using logical operators:
 
 ```
+# python
+
 threshold = 40
 my_value = 41
 my_name = "John Smith"
@@ -134,7 +157,8 @@ elif(my_value >= threshold)
 	print("Threshold passed by " + my_name)
 else:
 	print("Threshold not passed")
-> Threshold passed by John Smith
+
+# > Threshold passed by John Smith
 ```
 
 Through the combination of variables, conditionals, and operators, more complex programs can be created.
@@ -146,15 +170,18 @@ In the code below, we set a counter, test it's value, and if it's less than 5, w
 At the end of the block we increment the counter. This will result in the code being run 5 times.
 
 ```
+# python
+
 counter = 0
 while(counter < 5):
 	print(counter)
 	counter = counter + 1
-> 0
-> 1
-> 2
-> 3
-> 4
+
+# > 0
+# > 1
+# > 2
+# > 3
+# > 4
 ```
 
 ## Functions
@@ -164,6 +191,8 @@ that can be reused by different bits of code. Taking the previous example, we ca
 the iterating counter printer into a function and call it to run the code.
 
 ```
+# python
+
 def print_number_of_times(times):
 	counter = 0
 	while(counter < times):
@@ -171,10 +200,11 @@ def print_number_of_times(times):
 		counter = counter + 1
 
 number_of_times(4)
-> 0
-> 1
-> 2
-> 3
+
+# > 0
+# > 1
+# > 2
+# > 3
 ```
 
 Functions have a name, and arguments. These arguments can be required or optional, can be
@@ -184,12 +214,15 @@ Functions can simply execute some code, or they can return values, and then can 
 in a nested format, whereby the output of one function becomes the input of another:
 
 ```
+# python
+
 def calculate_something(input1,input2):
 	intermediate = input1 * input2
 	return intermediate
 
 print(calculate_something(3,6))
-> 18
+
+# > 18
 ```
 
 ### Variable Scope
@@ -216,18 +249,23 @@ An objects functions are known as 'methods' and the variables are known as 'prop
 ### Reading CSV
 
 ```
- import csv
- >>> with open('eggs.csv') as csvfile:
- ...     spamreader = csv.reader(csvfile)
- ...     for row in spamreader:
- ...         print(', '.join(row))
- Spam, Spam, Spam, Spam, Spam, Baked Beans
- Spam, Lovely Spam, Wonderful Spam
+# python
+
+import csv
+with open('eggs.csv') as csvfile:
+  spamreader = csv.reader(csvfile)
+  for row in spamreader:
+  print(', '.join(row))
+
+# > Spam, Spam, Spam, Spam, Spam, Baked Beans
+# Spam, Lovely Spam, Wonderful Spam
 ```
 
 ### Writing CSV
 
 ```
+# python
+
 import csv
 with open('eggs.csv', 'w') as csvfile:
     spamwriter = csv.writer(csvfile)
@@ -274,6 +312,8 @@ and then 'push' those changes to the upstream repository (hosted for example on 
 
 ### Initialising a repository
 ```
+# bash
+
 cd my_folder
 git init
 ```
@@ -281,27 +321,37 @@ git init
 ### Cloning out an existing repository
 
 ```
+# bash
+
 git clone [https://github.com/username/repository]
 ```
 
 ### Adding files.
 ```
+# bash
+
 git add . -A
 ```
 
 ### Commiting a change
 ```
+# bash
+
 git commit -m 'this is user-defined a comment to describe what is changing'
 ```
 
 ### Pushing the changes
 
 ```
+# bash
+
 git push
 ```
 
 ### Create a new branch and switch to it
 ```
+# bash
+
 git checkout -b [name_of_new_branch]
 ```
 
@@ -322,8 +372,6 @@ analysis packages and bioinformatics specific packages.
 In Python, packages can be installed from 'pip' or 'conda'.
 
 In all 3 languages, 3rd party packages can also be installed from other sources.
-
-
 
 
 ## Setting up your environments
@@ -360,7 +408,7 @@ Matlab is a propriety computational environment developed by Mathworks.
 
 Matlab can be installed from the college central software repository
 
-https://uk.mathworks.com/academia/tah-portal/imperial-college-london-600177.html
+[Imperial Matlab Installation](https://uk.mathworks.com/academia/tah-portal/imperial-college-london-600177.html)
 
 - Click 'Get started today'
 - Sign in with your college account.
@@ -381,6 +429,8 @@ with code inspection.
 Matlab will look in a set of default folders for functions/packages so if you want to install new packages, you will need to tell Matlab where to look.  This default path can be found by clicking on the 'Set Path' button in the Home tab (see Environment) and you can manually add folders to the path here.  Alternatively, you can navigate to a particular folder in the user the path bar towards the top of the working environment.  The 'Current Folder' window shows you the contents of the selected folder.  The contents of this folder can be called in Matlab, although functions within folders typically cannot (these are likely to be shown with greyed-out file names).  To ensure that all functions within a folder are available for Matlab to run, you should run the following command:
 
 ```
+% matlab
+
 addpath(genpath(pwd));
 ```
 Following the execution of this command, all functions within all subfolders should be able to called from Matlab.  You will have to repeat this step each time you open Matlab, unless you change the default path using the 'savepath' function or the 'Set Path' window.
@@ -391,6 +441,8 @@ Any Matlab toolboxes that you have installed will be automatically added to the 
 You can type commands directly into the command window which will be executed immediately after 'Return' is pressed.  The results will be displayed to screen and variables created will be visible in the workspace browser.  Terminating each command with a semicolon suppresses the output being displayed to screen.  The following example generates a vector of data from 0 to 3pi with increments of pi/10.  The sine of this vector is calculated and then plotted.
 
 ```
+% matlab
+
 x = 0:pi/10:3*pi;
 y = sin(x);
 figure;
@@ -403,6 +455,8 @@ box on;
 These commands could be typed individually into the command prompt, or equally saved into a script so that all of the commands can be run together.  So plot the cosine of x as well, we can run the following commands:
 
 ```
+% matlab
+
 hold on;
 h2 = plot(x,cos(x),'Color','red','LineStyle','--','LineWidth',2);
 ```
@@ -412,6 +466,8 @@ The 'hold' command is required to prevent the plotting of the cosine wave overwr
 To include a legend and change the appearance of the axes labels, you could run the following commands.  Note that the command 'gca' is asking Matlab to change the current axes (i.e. most recently drawn/clicked in):
 
 ```
+% matlab
+
 % Add a legend and increase its font size
 legend([h1 h2],{'sin(x)','cos(x)'},'FontSize',18);
 
@@ -427,6 +483,8 @@ xlim([0 3*pi]);
 Functions take inputs and typically produce outputs, and a simple function is shown below.  Note the use of (square) brackets for grouping the output arguments and the parentheses for grouping the input arguments:
 
 ```
+% matlab
+
 function [ sumD,sumOD ] = magicMatrix(n)
 % magicMatrix - generate 'magic' matrices of size nxn and calculate the
 % row, column and diagonal sums
@@ -459,6 +517,8 @@ If a 'for' loop, the number of iterations performed will depend on the number of
 While loops have the potential to continue infinitely, so be sure that the logic behind them is sound.
 
 ```
+% matlab
+
 function logicalExamples(x,y)
 %logicalExamples and loops
 
@@ -490,6 +550,8 @@ end
 Having saved this function, you can run it:
 
 ```
+% matlab
+
 logicalExamples(10,15);
 logicalExamples(5.5,5.5);
 logicalExamples(20,10.2);
@@ -503,12 +565,16 @@ Matlab has a lot of data types which can be confusing, especially as some respon
 All numerical entities are by default saved as n-dimensional arrays.  The command:
 
 ```
+% matlab
+
 r = rand(4,3,2);
 ```
 
 creates an array of random numbers with 4 rows, 3 columns and 2 pages.  You can access specific parts of that array using the following commands:
 
 ```
+% matlab
+
 r(:,:,1) 		% just the first page, but all rows and columns of it
 r(:,1,:) 		% all rows of the first column, in both pages
 r([2 4],[1 3],2) 	% rows 2 and 4, columns 1 and 3, but of only page 2
@@ -517,6 +583,8 @@ r([2 4],[1 3],2) 	% rows 2 and 4, columns 1 and 3, but of only page 2
 To access certain parts of an array, we use parentheses.  The colon operator represents 'all', so replaces the need to type 1:4 to access all rows of r.  Square brackets are used to create a vector to group indices together, such as:
 
 ```
+% matlab
+
 b = [2 4];
 c = [1 3];
 r(b,c,2)
@@ -525,18 +593,24 @@ r(b,c,2)
 To create you own matrix, remember that new rows are delineated by semicolons and columns can optionally be separated by commas.  Note that Matlab isn't fussy about spacings between semicolons and commas:
 
 ```
+% matlab
+
 mm = [1 2 3; 4 5 6;7,8,9]
 ```
 
 Text is typically represented in 2 ways in Matlab: either as a string or as part of a cell array.  Strings are simpler and are just typed between speech marks, such as:
 
 ```
+% matlab
+
 s = 'This is a string'
 ```
 
 To access individual elements within this string, the following commands might be useful:
 
 ```
+% matlab
+
 s(2)
 s(1:6)
 s(end-2:end)
@@ -545,12 +619,16 @@ s(end-2:end)
 Using the comma/semicolon notation and braces, we can make a cell array of text:
 
 ```
+% matlab
+
 c = {'This is a cell','So is this';'And this is another','And another'}
 ```
 
 Matlab is storing the 4 strings in a cell array (i.e. an array of individual cells).  We can access each cell by using the conventional parentheses () or we could access the string itself by using the braces {}.  Run the following examples, and note how the output is different:
 
 ```
+% matlab
+
 c(1,1)
 c{1,1}
 c{2,1}([1 6 4 end-2 13])
@@ -560,12 +638,16 @@ c{2,1}([1 6 4 end-2 13]) % this will fail!
 Cells can also be used to store a mixture of text and numeric values:
 
 ```
+% matlab
+
 d = {'x1',1,1,1;'x2',2,4,8;'x3',3,9,27;'x4',4,16,64}
 ```
 
 Note, however, that when stored in a cell array numeric values do not behave as if they were in a regular array.  To plot the numeric parts, use the 'cell2mat' function, such as:
 
 ```
+% matlab
+
 figure;
 hold on;
 h1 = plot(cell2mat(d(:,2)),cell2mat(d(:,3)),'-bo');
@@ -588,18 +670,24 @@ which will halt execution at the next function.  Note that any currently running
 The documentation for a particular function can be displayed in the Matlab command prompt by running the following command:
 
 ```
+% matlab
+
 help str2num
 ```
 
 Alternatively, there is an interactive documentation browser which can be accessed by typing either:
 
 ```
+% matlab
+
 doc
 ```
 
 for general enquiries, or more specifically for a single function:
 
 ```
+% matlab
+
 doc str2num
 ```
 
@@ -631,14 +719,20 @@ R software packages are distributed through three main channels: CRAN, Bioconduc
 
 CRAN packages can be installed directly from the command line, by calling the function:
 ```
+# R
+
 install.packages
 ```
 For example, to install the package ```ggplot2```:
 ```
+# R
+
 install.packages('ggplot2')
 ```
 or, equivalently,
 ```
+# R
+
 install.packages("ggplot2")
 ```
 Please notice that the name of package is passed to the function as a string through the characters ```"``` or ```'``` (they are exchangeable in R).
@@ -647,12 +741,16 @@ Typically, the function will install also all the dependencies, but in some case
 
 To install Bioconductor packages, first install the ```BiocManager``` package:
 ```
+# R
+
 if (!requiredNamespace("BiocManager"))
     install.packages("BiocManager")
 ```
 then call the actual install command (e.g. to install the ```GenomicFeatures``` package):
 
 ```
+# R
+
 BiocManager::install("GenomicFeatures")
 ```
 
@@ -664,15 +762,23 @@ To install packages from Github, it is necessary to know the URL of the package.
 The package ```devtools``` (from CRAN) is required to install packages from Github:
 
 ```
+# R
+
 install.packages("devtools")
 ```
 
 Then install the package, calling the command:
 ```
+# R
+
 devtools::install_github("<DeveloperName>/<PackageName>")
 ```
+
 that in the case of ```MALDIquant``` becomes
+
 ```
+# R
+
 # URL: https://github.com/sgibb/MALDIquant =
 #      https://github.com/<DeveloperName>/<PackageName>
 
@@ -690,10 +796,14 @@ devtools::install_github("sgibb/MALDIquant")
 R base and packages functions are distributed with a help that also shows examples of usage.
 The help can be called by the command (to be exectuted in the command line):
 ```
+# R
+
 ?<functionName>
 ```
 For instance, to get the help associated with the function ```factor```:
 ```
+# R
+
 ?factor
 ```
 Additional information is often provided together with packages on their website. Simple tutorials may be distributed as well, called *vignette*.
@@ -703,7 +813,7 @@ Additional information is often provided together with packages on their website
 - ggplot2
 - deplyR
 - tidyR
-- XCMS
+- XCMS - MS import and preprocessing.
 
 ## Installing Python
 
