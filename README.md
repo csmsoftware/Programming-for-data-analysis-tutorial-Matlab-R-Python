@@ -877,6 +877,8 @@ On Windows, conda is the simplest package management system to use. It uses the 
 Once installed, python can be run in an interactive console mode, by simply running `python` from
 the command line. In console mode, python can be entered and executed line by line.
 
+![Example Python Console](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/python-console.png "Python console")
+
 Python can also run 'scripts', text files containing python code. Name these file `*.py`, and run them as follows:
 
 ```
