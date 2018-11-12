@@ -724,7 +724,7 @@ R must be installed before RStudio.
 
 RStudio default layout consists of three panels. At left there is a panel showing the code executed plus eventually the textual output. At right, the top panel show the current variables/functions loaded in the environment (top) and the bottom panel allows the access to the file system. When a script is opened the left panel is split in two.
 
-v
+![RStudio IDE](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/rstudio-windows.jpg "RStudio")
 
 ### Installing packages
 
@@ -936,6 +936,7 @@ Notebooks can be saved as json and exported and imported by other users.
 - scikit-learn - Machine learning in python.
 - plotly - Interactive charts.
 - nPYc Toolbox - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
+
 
 
 # Further Reading
