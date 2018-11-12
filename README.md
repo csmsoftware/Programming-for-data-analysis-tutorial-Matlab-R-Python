@@ -772,7 +772,7 @@ The IPython QT Console is an QT GUI version of the basic console. It supports em
 Spyder is an interactive python environment similar to R Studio and Matlab.
 
 - [Spyder IDE](https://www.spyder-ide.org/)
-![Example Spyder IDE](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/src/img/Spyder-windows-screenshot.png "Spyder IDE")
+![Example Spyder IDE](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/Spyder-windows-screenshot.png "Spyder IDE")
 
 ### Jupyter/IPython Notebook
 Jupyter Notebooks (previously called IPython Notebooks) are another widely-used interactive python environment that enable you to mix code and markdown to create, save,
