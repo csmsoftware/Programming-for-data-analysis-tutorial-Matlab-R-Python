@@ -455,7 +455,7 @@ ylabel('f(x)','FontSize',16);
 box on;
 ```
 
-![Matlab figure 1](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure1.png "Matlab figure 1")
+![Matlab figure 1](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure-1.png "Matlab figure 1")
 
 These commands could be typed individually into the command prompt, or equally saved into a script so that all of the commands can be run together.  To plot the cosine of x as well, we can run the following commands:
 
@@ -466,7 +466,7 @@ hold on;
 h2 = plot(x,cos(x),'Color','red','LineStyle','--','LineWidth',2);
 ```
 
-![Matlab figure 2](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure2.png "Matlab figure 2")
+![Matlab figure 2](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure-2.png "Matlab figure 2")
 
 The 'hold' command is required to prevent the plotting of the cosine wave overwriting that of the sine wave.  If, instead, you wanted to draw the cosine in a separate graph, then first create a new empty figure.
 
@@ -487,7 +487,7 @@ set(gca,'FontSize',14,...
 xlim([0 3*pi]);
 ```
 
-![Matlab figure 3](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure3.png "Matlab figure 3")
+![Matlab figure 3](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure-3.png "Matlab figure 3")
 
 Functions take inputs and typically produce outputs, and a simple function is shown below.  Note the use of (square) brackets for grouping the output arguments and the parentheses for grouping the input arguments:
 
