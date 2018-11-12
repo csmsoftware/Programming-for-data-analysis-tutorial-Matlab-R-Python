@@ -929,13 +929,13 @@ Notebooks can be saved as json and exported and imported by other users.
 
 ### Useful Packages
 
-- numpy - Fast numerical processing.
-- pandas - Table data structures.
-- jupyter-notebook - For running jupyter-notebooks.
-- scipy - Wide range of packages for scientific computing.
-- scikit-learn - Machine learning in python.
-- plotly - Interactive charts.
-- nPYc Toolbox - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
+- [numpy](https://www.numpy.org/) - Fast numerical computation.
+- [pandas](https://pandas.pydata.org/) - Advanced data structures.
+- [jupyter-notebook](https://jupyter.org) - For running jupyter-notebooks.
+- [scipy](https://www.scipy.org/) - Collection of packages for scientific computing.
+- [scikit-learn](https://scikit-learn.org/) - Machine learning in python.
+- [plotly](https://plot.ly/) - Interactive charts.
+- [nPYc Toolbox](https://github.com/phenomecentre/nPYc-Toolbox) - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
 
 
 
