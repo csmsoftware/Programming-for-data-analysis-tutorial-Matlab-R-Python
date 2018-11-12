@@ -168,7 +168,7 @@ Through the combination of variables, conditionals, and operators, more complex 
 ## Iteration
 
 In imperative languages, iteration is a process whereby blocks of code can be repeated.
-In the code below, we set a counter, test it's value, and if it's less than 5, we run the conditional block.
+In the code below, we set a counter, test its value, and if it's less than 5, we run the conditional block.
 At the end of the block we increment the counter. This will result in the code being run 5 times.
 
 ```
@@ -641,7 +641,7 @@ Matlab is storing the 4 strings in a cell array (i.e. an array of individual cel
 c(1,1)
 c{1,1}
 c{2,1}([1 6 4 end-2 13])
-c{2,1}([1 6 4 end-2 13]) % this will fail!
+c(2,1)([1 6 4 end-2 13]) % this will fail!
 ```
 
 Cells can also be used to store a mixture of text and numeric values:
