@@ -301,6 +301,8 @@ for general enquiries, or more specifically for a single function:
 doc str2num
 ```
 
+![Matlab figure 6](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-doc.png "Matlab doc")
+
 Web documentation tends to mirror what is available in the native doc browser, and a lot of questions have been asked and answered on Stack Exchange, Matlab Central and Matlab File Exchange.
 
 ### Useful packages
