@@ -12,9 +12,12 @@ The situation is made more complicated by different versions (2.x vs 3.x), and d
 Generally use python3.x for new projects, and only use python2.7 if a project you are using does not support Python3.
 
 ### Windows installation
-- See Conda below
+- See Conda/Anaconda below.
 
 ### Mac installation
+
+Python2.7 will be installed system-wide by default on MacOS. However you should install Python3 and use that for your new projects.
+
 - Install [Homebrew](https://brew.sh/)
 Install python3 via homebrew:
 ```
@@ -139,7 +142,21 @@ Notebooks can be saved as json and exported and imported by other users.
 - [plotly](https://plot.ly/) - Interactive charts.
 - [nPYc Toolbox](https://github.com/phenomecentre/nPYc-Toolbox) - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
 
+### Using Packages
+Once installed to your system-wide or virtualenv python kernel (using pip or conda), packages can be 'imported' and used in your python code.
+
+```
+# python
+
+import numpy as np
+
+a = np.arange(15).reshape(3, 5)
+a.shape
+
+# > (3,5)
+```
+
 - [Numpy tutorial](https://docs.scipy.org/doc/numpy-1.15.1/user/quickstart.html)
 
 
-##[Main page](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/README.md)
+[Main page](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/README.md)

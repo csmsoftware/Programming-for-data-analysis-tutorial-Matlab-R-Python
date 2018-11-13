@@ -215,9 +215,9 @@ The definition of an object is a Class, and the instance of that Class is an obj
 An objects functions are known as 'methods' and the variables are known as 'properties'.
 
 ## Control characters
-Different languages use different 'control characters' for defining seperate regions of executable code.
+Different languages use different 'control characters' for defining logical blocks executable code, for example separating out conditionals, operators, and function definitions.
 In Matlab and R, some control characters used are the
-`{}()[]`. In Python, indentation is used to specify control characters.
+`{}()[]`. In Python, indentation and `:` is used to specify logical blocks.
 
 ## Accessing data from disk
  Persistent data is data which when your program finishes (or crashes), still exists on disk.
@@ -382,4 +382,4 @@ out what the hell was going on.
 Keeping your data and code organised well will help you 6 months down the line.
 
 
-- [Matlab tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/matlab.md)
+[Matlab tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/matlab.md)
