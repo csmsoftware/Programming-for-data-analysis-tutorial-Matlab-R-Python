@@ -1,5 +1,5 @@
 
-# General introduction
+# Programming fundamentals
 
 In the introduction below, the syntax is python.
 
