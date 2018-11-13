@@ -6,8 +6,7 @@ In the introduction below, the syntax is python.
 ## Commands
 Python, Matlab, and R are interpreted languages. That means the code is interpreted at run time (there's no pre-compiling).
 Commands are given to the interpreter, either as a 'script', or in an interactive session.
-The interpreter 'interprets' the code, translate it to binary CPU instructions,
-executes these instructions, and returns the result (if any).
+The interpreter 'interprets' the code, translate it to binary CPU instructions, executes these instructions, and returns the result (if any).
 
 ## Variables & Datatypes
 During execution, the instructions often need to access and manipulate data stored in memory.
@@ -215,7 +214,12 @@ This is a way of grouping functions and variables of similar entities together i
 The definition of an object is a Class, and the instance of that Class is an object.
 An objects functions are known as 'methods' and the variables are known as 'properties'.
 
-## Accessing data
+## Control characters
+Different languages use different 'control characters' for defining seperate regions of executable code.
+In Matlab and R, some control characters used are the
+`{}()[]`. In Python, indentation is used to specify control characters.
+
+## Accessing data from disk
  Persistent data is data which when your program finishes (or crashes), still exists on disk.
  Persistent data can be read and written from various sources, including simple flat text files,
  including CSVs, XML or json, or more complex sources such as relational databases or online APIs.
@@ -231,7 +235,7 @@ import csv
 with open('eggs.csv') as csvfile:
   spamreader = csv.reader(csvfile)
   for row in spamreader:
-  print(', '.join(row))
+    print(', '.join(row))
 
 # > Spam, Spam, Spam, Spam, Spam, Baked Beans
 # Spam, Lovely Spam, Wonderful Spam

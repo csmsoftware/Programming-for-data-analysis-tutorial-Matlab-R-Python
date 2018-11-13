@@ -261,6 +261,9 @@ legend([h1 h2],{'x^2','x^3'},'Location','northwest');
 set(gca,'FontSize',16);
 ```
 
+
+![Matlab figure 4](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-figure-4.png "Matlab figure 4")
+
 Large amounts of numeric data are not suited for storage in a cell array. Instead, they should be stored in a regular array.  When dealing with a range of datatypes, such as patient metadata which contains text (ID, status, disease, etc) and numeric values (weight, height, age, etc) then cell arrays are ideally suited.
 
 ### Halting execution
@@ -279,6 +282,8 @@ The documentation for a particular function can be displayed in the Matlab comma
 
 help str2num
 ```
+
+![Matlab figure 5](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/matlab-help.png "Matlab help")
 
 Alternatively, there is an interactive documentation browser which can be accessed by typing either:
 

@@ -9,7 +9,37 @@
 Compared to Matlab and R, Python is fairly complicated to install and use, as it is general-purpose programming language.
 The situation is made more complicated by different versions (2.x vs 3.x), and different package managers.
 
-### Virtualenv
+Generally use python3.x for new projects, and only use python2.7 if a project you are using does not support Python3.
+
+### Windows installation
+- See Conda below
+
+### Mac installation
+- Install [Homebrew](https://brew.sh/)
+Install python3 via homebrew:
+```
+# bash mac
+
+brew install python
+```
+
+### Linux installation
+Use the system package management system, ie aptitude or yum.
+
+```
+# bash ubuntu
+
+sudo apt-get install python3-dev python3-setuptools
+```
+
+```
+# bash centos
+
+sudo yum -y install python36u python36u-pip python36u-devel
+```
+
+
+### Virtualenv (Mac/Linux)
 
 Virtualenv is the recommended approach to handling multiple installations of python on your system. Each python script or tool you use may require different versions of python, or different packages, or different versions of packages. Virtualenv is a way of seperating out these differences to resolve conflicts. Typically you would use a different virtual environment for each project you use. The following bash shell commands create a new virtual environment and then activate it for dynamic usage - all python commands entered after activate has run will use the python kernel from the virtual environment.
 
