@@ -186,6 +186,8 @@ myChar <- 'A' # Identical results
 ```
 A **string** is a sequence of characters:
 ```
+# R
+
 myString <- 'Hello, World!'
 ```
 Characters cannot be accessed by their index, like for vectors. Specific functions are available to work with strings.
