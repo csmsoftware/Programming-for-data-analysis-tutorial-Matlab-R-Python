@@ -110,3 +110,6 @@ Notebooks can be saved as json and exported and imported by other users.
 - [nPYc Toolbox](https://github.com/phenomecentre/nPYc-Toolbox) - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
 
 - [Numpy tutorial](https://docs.scipy.org/doc/numpy-1.15.1/user/quickstart.html)
+
+
+- [Main page](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/README.md)
