@@ -4,14 +4,14 @@
 In the introduction below, the syntax is python.
 
 ## Commands
-Python, Matlab, and R are interpreted languages. That means the code is interpreted at run time (there's no pre-compiling).
+Python, Matlab, and R are interpreted languages. That means the code is interpreted at run-time (there's no pre-compiling).
 Commands are given to the interpreter, either as a 'script', or in an interactive session.
 The interpreter 'interprets' the code, translate it to binary CPU instructions, executes these instructions, and returns the result (if any).
 
 ## Variables & Datatypes
 During execution, the instructions often need to access and manipulate data stored in memory.
 
-Variables are named locations of the data in the memory, are of a specific 'datatype' have a value assigned to them.
+Variables are named locations of the data in the memory, are of a specific 'datatype', and have a value assigned to them.
 
 ### Simple datatypes
 
@@ -97,7 +97,7 @@ We've already seen the assignment operator (`=`).
 We also have the relational operators for comparing values (`==`, `!=`, `<`, `>`),
 and the logical operators (`&&`, `and`, `||`, `or`, `!`, `not`).
 
-So, we've covered, datatypes, variables, and operations. Next is the conditionals.
+So, we've covered, datatypes, variables, and operators. Next is the conditionals.
 
 ## Conditionals
 
@@ -110,9 +110,9 @@ They use keywords like `IF`, `ELSE`, and `WHILE` to test conditions and execute 
 threshold = 40
 my_value = 24
 if(my_value >= 40):
-	print("Threshold passed")
+    print("Threshold passed")
 else:
-	print("Threshold not passed")
+    print("Threshold not passed")
 
 # > Threshold not passed
 ```
@@ -127,11 +127,11 @@ my_value = 41
 my_name = "John Smith"
 
 if(my_value >= threshold and my_name == "John Smith"):
-	print("Threshold passed by John Smith")
+    print("Threshold passed by John Smith")
 elif(my_value >= threshold)
-	print("Threshold passed by " + my_name)
+    print("Threshold passed by " + my_name)
 else:
-	print("Threshold not passed")
+    print("Threshold not passed")
 
 # > Threshold passed by John Smith
 ```
@@ -149,8 +149,8 @@ At the end of the block we increment the counter. This will result in the code b
 
 counter = 0
 while(counter < 5):
-	print(counter)
-	counter = counter + 1
+    print(counter)
+    counter = counter + 1
 
 # > 0
 # > 1
@@ -169,10 +169,10 @@ the iterating counter printer into a function and call it to run the code.
 # python
 
 def print_number_of_times(times):
-	counter = 0
-	while(counter < times):
-		print(counter)
-		counter = counter + 1
+    counter = 0
+    while(counter < times):
+        print(counter)
+        counter = counter + 1
 
 number_of_times(4)
 
@@ -192,8 +192,8 @@ in a nested format, whereby the output of one function becomes the input of anot
 # python
 
 def calculate_something(input1,input2):
-	intermediate = input1 * input2
-	return intermediate
+    intermediate = input1 * input2
+    return intermediate
 
 print(calculate_something(3,6))
 
@@ -215,7 +215,7 @@ The definition of an object is a Class, and the instance of that Class is an obj
 An objects functions are known as 'methods' and the variables are known as 'properties'.
 
 ## Control characters
-Different languages use different 'control characters' for defining logical blocks executable code, for example separating out conditionals, operators, and function definitions.
+Different languages use different 'control characters' for defining logical blocks of executable code, for example separating out conditionals, operators, and function definitions.
 In Matlab and R, some control characters used are the
 `{}()[]`. In Python, indentation and `:` is used to specify logical blocks.
 
@@ -233,9 +233,9 @@ In Matlab and R, some control characters used are the
 
 import csv
 with open('eggs.csv') as csvfile:
-  spamreader = csv.reader(csvfile)
-  for row in spamreader:
-    print(', '.join(row))
+    spamreader = csv.reader(csvfile)
+    for row in spamreader:
+        print(', '.join(row))
 
 # > Spam, Spam, Spam, Spam, Spam, Baked Beans
 # Spam, Lovely Spam, Wonderful Spam
@@ -254,33 +254,30 @@ with open('eggs.csv', 'w') as csvfile:
 ```
 
 Libraries and packages exist for reading and writing many file types and DB connections.
-Another example of when google is your friend.
+When looking for informtion on these resources, google is your friend.
 
 Carefully plan the format and structure of your data when designing your project
-and writing your code. Most importantly, don't delete your raw data after you've processed it.
+and writing your code. Most importantly, don't delete your raw data after you've processed it, keep it stored somewhere safe.
 
 ## Visualisation
 
 When you are investigating your data, you will often want to plot the data.
 
 Various charting libraries exist for most languages, each with different levels of functionality.
-Some can produce very complex charts, but produce only static vector or bitmap images (ggplot2).
-Others have less features but are interactive by default (plotly).
+Some can produce very complex charts, but produce only static vector or bitmap images (`ggplot2`).
+Others have less features but are interactive by default (`plotly`,Matlab).
 
-They generally work by providing vectors of information and various settings.
-
-Some examples of these will be provided for each language.
+They generally work by providing vectors of information and various settings, such as type of chart, colours, legends, scale, etc.
 
 ## Help files
 R and Matlab provide offline help files for understanding package functionalities and APIs.
-Python's documentation is online, and packages often have readthedocs.io documentation pages.
+Python's documentation is online, and packages often have `readthedocs.io` documentation pages.
 Good documentation will give you an introduction to the package, argument settings,
 and expected output. You should be able to drill down to to specific functions if
 necessary. Learning how to read and interpret documentation will be necessary if you
-plan to write any code beyond really basic stuff. Even then, most coders use google
-for EVERYTHING.
+plan to write any code beyond really basic stuff. Even then, most coders use google everyday.
 
-## Managing code
+## Managing code & version control
 
 So, you've taken the leap and started coding. How should you manage the code you write?
 With version control! Version control enables you to 'version' your code and create 'branches'
@@ -378,8 +375,6 @@ Good organisation of your workspace will enable you to write better code, with
 less mistakes, and make it easier for you to come back in 6 months time and work
 out what the hell was going on.
 
-
-Keeping your data and code organised well will help you 6 months down the line.
-
+That's the fundamentals covered, now it's on to Matlab.
 
 [Matlab tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/matlab.md)

@@ -8,7 +8,7 @@ The concepts presented here will be new for some of you, or you may already be w
 There is no way we can teach you everything about coding in 2 hours, however we can
 give you the basic knowledge you will need to get started, and point you in the right direction for learning more.
 
-So, we're going to cover coding basics, how to organise your work, some of the main
+So, we're going to cover coding basics, how to organise your work, and some of the main
 packages used by the different languages for things such as charting and data analysis.
 
 At some point in your training or work, you will have come across one or more of the

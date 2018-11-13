@@ -110,6 +110,10 @@ For instance, to get the help associated with the function ```factor```:
 
 ?factor
 ```
+![R help1](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/r-help-1.png "R help 1")
+
+![R help2](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/raw/master/img/r-help-2.png "R help 2")
+
 Additional information is often provided together with packages on their website. Simple tutorials may be distributed as well, called *vignette*.
 
 
