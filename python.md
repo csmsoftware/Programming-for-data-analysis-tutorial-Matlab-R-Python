@@ -108,3 +108,5 @@ Notebooks can be saved as json and exported and imported by other users.
 - [scikit-learn](https://scikit-learn.org/) - Machine learning in python.
 - [plotly](https://plot.ly/) - Interactive charts.
 - [nPYc Toolbox](https://github.com/phenomecentre/nPYc-Toolbox) - NPC built toolbox for NMR and MS import, preprocessing, QC, and generating reports.
+
+- [Numpy tutorial](https://docs.scipy.org/doc/numpy-1.15.1/user/quickstart.html)
