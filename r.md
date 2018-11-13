@@ -174,6 +174,8 @@ The length of a vector is given by the command ```length```:
 
 myVector <- c(4, 5, 6, 7)
 length(myVector)
+
+# > [1] 4
 ```
 A **character** variable can be defined using the symbols ```'``` or ```"```:
 ```
@@ -194,6 +196,8 @@ The length of a string is given by the command ```char```:
 
 myString <- 'Hello, World!'
 nchar(myString)
+
+# > [1] 13
 ```
 
 A **factor** is a special vector of labelled elements. Usually its elements are discrete and can be either strings or scalars:
@@ -223,10 +227,18 @@ Xmat <- matrix(matElements, 4, 5)
 
 # Number of rows
 nrow(Xmat)
+
+# > [1] 4
+
 # Number of columns
 ncol(Xmat)
+
+# > [1] 5
+
 # Both
 dim(Xmat)
+
+# > [1] 4 5
 ```
 Matrix dimensions can be named, using the commands `dimnames`, `rownames`, or `colnames`.
 Names can be assigned also at the definition time:
@@ -243,13 +255,26 @@ colnames(Xmat) <- c(1:5)
 
 # Read the row names and column names
 rownames(Xmat)
+
+# > [1] "1" "2" "3" "4"
+
 colnames(Xmat)
+
+# > [1] "1" "2" "3" "4" "5"
 
 # Assign using dimnames
 dimnames(Xmat) <- list(c(1:4), c(1:5)) # Notice that in this case we need a list
 
 # Assign at the definition
-Xmat <- matrix(sample(20), 4, 5, dimnames = list(c(1:4), c(1:5)) # Same as dimnames command
+Xmat <- matrix(sample(20), 4, 5, dimnames = list(c(1:4), c(1:5))) # Same as dimnames command
+
+Xmat
+# > Xmat
+    # 1  2  3  4  5
+#  1  6  2 18 15  4
+#  2 13  9  8  7 20
+#  3 10 14  1 19  5
+#  4 11  3 16 12 17
 ```
 
 An **array** is the matrix extension to more than 2-dimensions. For instance, the following command will assign a 3-dimensional array of dimensions (5 x 6 x 10) to the variable ```myArray```:
@@ -451,4 +476,4 @@ Here, it is possible to find nice examples of data graphs generated using ```ggp
 - [R Graphs](http://www.cookbook-r.com/Graphs/)
 
 
-##[Python tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/r.md)
+[Python tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/r.md)
