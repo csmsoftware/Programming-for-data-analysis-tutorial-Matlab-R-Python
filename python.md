@@ -6,7 +6,7 @@
 
 ## Installing Python
 
-Python is a bit more complicated, as it is general-purpose programming language.
+Compared to Matlab and R, Python is fairly complicated to install and use, as it is general-purpose programming language.
 The situation is made more complicated by different versions (2.x vs 3.x), and different package managers.
 
 ### Virtualenv

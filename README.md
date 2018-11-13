@@ -28,8 +28,8 @@ programming fundamentals, which we're now going to go through.
 
 - [Programming fundamentals](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/programming-fundamentals.md)
 - [Matlab](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/matlab.md)
-- [R](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/r.md)
 - [Python](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/python.md)
+- [R](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/r.md)
 
 
 

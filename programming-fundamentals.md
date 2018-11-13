@@ -376,3 +376,6 @@ out what the hell was going on.
 
 
 Keeping your data and code organised well will help you 6 months down the line.
+
+
+- [Matlab tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/matlab.md)

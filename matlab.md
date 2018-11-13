@@ -303,3 +303,7 @@ When installing Matlab, a lot of the toolboxes that are available are unlikely t
 - Bioinformatics Toolbox
 - Image Processing Toolbox
 - Statistics and Machine Learning Toolbox
+
+
+
+- [R tutorial](https://github.com/csmsoftware/Programming-for-data-analysis-tutorial-Matlab-R-Python/blob/master/r.md)
