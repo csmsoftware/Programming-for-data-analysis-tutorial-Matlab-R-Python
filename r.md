@@ -125,9 +125,11 @@ Additional information is often provided together with packages on their website
 ### Useful packages
 
 - ggplot2
-- deplyR
+- dplyR
 - tidyR
 - XCMS
+
+Check out [tidyverse](https://www.tidyverse.org/) a set of packages specifically designed for data science.
 
 ## Data types
 
